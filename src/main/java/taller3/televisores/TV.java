@@ -86,7 +86,7 @@ public class TV {
 		
 	}
 	public void canalDown() {
-		if (canal>0 && estado==true) {
+		if (canal>1 && estado==true) {
 			canal--;
 		}
 		
