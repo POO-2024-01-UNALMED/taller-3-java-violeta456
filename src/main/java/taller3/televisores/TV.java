@@ -64,7 +64,8 @@ public class TV {
 		numTV=tv;
 	}
 	public static int ContadorTVs() {
-		return numTV++;
+		numTV=numTV++;
+		return numTV;
 	}
 	
 	
