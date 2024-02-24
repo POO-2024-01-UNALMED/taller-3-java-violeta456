@@ -63,7 +63,7 @@ public class TV {
 	public static void setNumTV(int tv) {
 		numTV=tv;
 	}
-	public static int incrementoNumTV() {
+	public static int ContadorTVs() {
 		return numTV++;
 	}
 	
