@@ -31,9 +31,10 @@ public class TV {
 		return canal;
 	}
 	public void setCanal(int canal) {
-		this.canal=canal;
+		if(canal>0 && canal<121) {
+			this.canal=canal;
+		}
 	}
-	
 	public int getPrecio() {
 		return precio;
 	}
@@ -45,7 +46,10 @@ public class TV {
 		return volumen;
 	}
 	public void setVolumen(int volumen) {
-		this.volumen=volumen;
+		if (volumen>-1 && volumen<8) {
+			this.volumen=volumen;
+		}
+		
 	}
 	
 	public Control getControl() {
