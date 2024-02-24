@@ -59,11 +59,14 @@ public class TV {
 	//Métodos de clase
 	public static int getNumTV() {
 		return numTV;
-		
+	}
+	public static void setNumTV(int tv) {
+		numTV=tv;
 	}
 	public static int incrementoNumTV() {
 		return numTV++;
 	}
+	
 	
 	//TurnON y TurnOff
 	
